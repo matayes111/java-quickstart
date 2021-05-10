@@ -16,8 +16,8 @@
         <!--suppress UnresolvedMavenProperty -->
         <sonar.login>${sonar.token}</sonar.login>
         <!-- Java version to use on project -->
-        <maven.compiler.target>15</maven.compiler.target>
         <maven.compiler.source>15</maven.compiler.source>
+        <maven.compiler.target>15</maven.compiler.target>
         <!-- Default file encoding -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
@@ -45,7 +45,7 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.codehaus.mojo/properties-maven-plugin -->
+        <!-- Allows to use variables in external properties file -->
         <dependency>
             <groupId>org.codehaus.mojo</groupId>
             <artifactId>properties-maven-plugin</artifactId>
