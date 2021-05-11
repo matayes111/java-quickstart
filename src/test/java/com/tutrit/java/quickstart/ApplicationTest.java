@@ -1,4 +1,4 @@
-package by.jrr.java.quickstart;
+package com.tutrit.java.quickstart;
 
 
 import org.junit.Test;

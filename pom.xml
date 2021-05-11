@@ -64,7 +64,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>by.jrr.java.quickstart.Application</mainClass>
+                            <mainClass>com.tutrit.java.quickstart.Application</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
