@@ -7,7 +7,7 @@ import java.util.Random;
 public class MainBall {
     public static void main(String[] args) {
         var log = LoggerFactory.getLogger("Asks");
-        List <String> asks = List.of(
+        List <String> answers = List.of(
                 //positive asks
                 "It is certain",
                 "It is decidedly so",
@@ -35,6 +35,6 @@ public class MainBall {
         );
         var r = new Random();
         var rand = r.nextInt(50);
-        log.info(asks.get(rand));
+        log.info(answers.get(rand));
     }
 }
