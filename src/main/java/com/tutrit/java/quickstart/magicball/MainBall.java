@@ -8,25 +8,25 @@ public class MainBall {
     public static void main(String[] args) {
         var log = LoggerFactory.getLogger("Asks");
         List <String> answers = List.of(
-                //positive asks
+                //positive answers
                 "It is certain",
                 "It is decidedly so",
                 "Without a doubt",
                 "Yes — definitely",
                 "You may rely on it",
-                //indecisively positive asks
+                //indecisively positive answers
                 "As I see it, yes",
                 "Most likely",
                 "Outlook good",
                 "Signs point to yes",
                 "Yes",
-                //neutral asks
+                //neutral answers
                 "Reply hazy, try again",
                 "Ask again later",
                 "Better not tell you now",
                 "Cannot predict now",
                 "Concentrate and ask again",
-                //negative asks
+                //negative answers
                 "Don’t count on it",
                 "My reply is no",
                 "My sources say",
